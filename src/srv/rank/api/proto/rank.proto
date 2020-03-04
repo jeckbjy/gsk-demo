@@ -1,0 +1,19 @@
+syntax = "proto3";
+package api;
+
+message ListReq {
+}
+
+message ListRsp {
+}
+
+message UpdateReq {
+}
+
+message UpdateRsp {
+}
+
+service RankService {
+    rpc List(ListReq) returns(ListRsp) {}
+    rpc Update(UpdateReq) returns(UpdateRsp) {}
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+package api;
+
+message VerifyReq {
+}
+
+message VerifyRsp {
+}
+
+service AuthService {
+    rpc Verify(VerifyReq) returns(VerifyRsp) {}
+}
